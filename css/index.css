@@ -1,0 +1,171 @@
+@charset "utf-8";
+.cont{
+    width: 9.6rem;
+    height: 9.87rem;
+    border-radius: 0.12rem;
+    background-color: #FFFFFF;
+    margin: 0.14rem auto;
+    padding: 0 0.19rem;
+}
+.cont a{
+    display: block;
+    height: 100%;
+}
+.cont .cont-left{
+    float: left;
+    width: 4.53rem;
+    height: 9.87rem;
+}
+.cont .cont-left .cont-leftbox{
+    width: 4.53rem;
+    height: 2.67rem;
+    border-radius: 0.12rem;
+    margin-top: 0.27rem;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+.cont .cont-left .leftbox1{
+    background-color: #4f9df0;
+
+}
+.cont .cont-left .leftbox2{
+    background-color: #fea94c;
+}
+.cont .cont-left .leftbox3{
+    background-color: #4cd4d4;
+}
+.cont .cont-left .cont-leftbox img{
+    height: 1.07rem;
+    width: 1.07rem;
+    margin-top: 0.46rem;
+}
+.cont .cont-left .cont-leftbox p{
+    font-size: 0.4rem;
+    color: #FFFFFF;
+    margin-top: 0.36rem;
+}
+
+/*右侧在线旅游*/
+.cont .cont-right{
+    float: left;
+    width: 4.4rem;
+    height: 9.87rem;
+    margin-left: 0.27rem;
+}
+
+.cont .cont-right .cont-rightbox1{
+    width: 4.4rem;
+    height: 5.6rem;
+    border-radius: 0.12rem;
+    margin-top: 0.27rem;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4f9df0;
+}
+.cont .cont-right .cont-rightbox1 img{
+    height: 1.07rem;
+    width: 1.07rem;
+    margin-top: 1.28rem;
+}
+.cont .cont-right .cont-rightbox1 p{
+    font-size: 0.44rem;
+    color: #FFFFFF;
+    margin-top: 0.8rem;
+}
+
+.cont .cont-right .cont-rightbox2{
+    width: 4.4rem;
+    height: 2.7rem;
+    margin-top: 0.27rem;
+    color: #FFFFFF;
+}
+
+.cont .cont-right .cont-rightbox2 .cont-rightbox2s{
+    float: left;
+    width: 2.07rem;
+    height: 2.67rem;
+    border-radius: 0.12rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 0.4rem;
+}
+.cont .cont-right .cont-rightbox2 .cont-rightbox2l{
+    background-color: #ef737d;
+}
+.cont .cont-right .cont-rightbox2 .cont-rightbox2r{
+    margin-left: 0.26rem;
+    background-color: #f2ba59;
+}
+.cont .cont-right .cont-rightbox2s img{
+    height: 1.07rem;
+    width: 1.07rem;
+    margin-top: 0.46rem;
+}
+.cont .cont-right .cont-rightbox2s  p{
+    font-size: 0.4rem;
+    color: #FFFFFF;
+    margin-top: 0.36rem;
+}
+
+/*走进吉首页面*/
+.enter{
+    width: 9.6rem;
+    height: 12.1rem;
+    border-radius: 0.12rem;
+    background-color: #FFFFFF;
+    margin: 0.14rem auto;
+    padding: 0 0.67rem;
+}
+.enter .enter-box{
+    float: left;
+    position: relative;
+    width: 3.68rem;
+    height: 3.47rem;
+    margin-top: 0.4rem;
+    border-radius: 0.12rem;
+}
+.enter .enter-right{
+    margin-left: 0.8rem;
+}
+
+
+.enter .enter-box a{
+    display: block;
+    height: 100%;
+}
+.enter .enter-box img{
+    width: 3.68rem;
+    height: 3.47rem;
+    border-radius: 0.12rem;
+}
+.enter .enter-box .word-bg{
+    position: absolute;
+    top: 0.93rem;
+    left: 0.32rem;
+    width: 3.04rem;
+    height: 1.33rem;
+    border-radius: 0.14rem;
+    opacity: 0.6;
+    background-color: #FFFFFF;
+}
+.enter .enter-box .word{
+    position: absolute;
+    top: 0.93rem;
+    left: 0.32rem;
+    width: 3.04rem;
+    height: 1.33rem;
+    line-height: 1.33rem;
+    font-size: 0.4rem;
+    color: #333333;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
