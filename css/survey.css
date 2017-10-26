@@ -1,0 +1,81 @@
+.survey{
+
+
+
+}
+.survey .survey-box{
+    margin-top: 0.4rem;
+    background-color: #FFFFFF;
+    padding: 0 0.5rem;
+    width: 10rem;
+    padding-bottom: 0.1rem;
+}
+
+.survey .survey-box h4{
+    width: 3.73rem;
+    height: 0.67rem;
+    line-height: 0.67rem;
+    margin: 0 auto;
+    font-size: 0.37rem;
+    text-align: center;
+    background-color: #1e9fe1;
+    color: #FFFFFF;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 0.2rem;
+}
+
+.survey .survey-box .jumbotron-title{
+    background-color: #ffa84e;
+
+}
+.survey .survey-box .travels-title{
+    background-color: #ef737d;
+}
+
+.survey .survey-box .word{
+    font-size: 0.35rem;
+    line-height: 0.6rem;
+    color: #5a5a5a;
+    text-align: justify;
+}
+
+.survey .survey-box .dili{
+    display: block;
+    width: 8.53rem;
+    height: 5.87rem;
+    margin: 0.3rem auto;
+}
+
+.survey .survey-box .wenhua{
+    width: 4.2rem;
+    height: 2.6rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+}
+
+.survey .survey-box .dongwu{
+    display: block;
+    width: 8.53rem;
+    height: 2.53rem;
+    margin: 0.3rem auto;
+}
+.survey .survey-box .gu{
+    display: block;
+    width: 8.53rem;
+    margin: 0.3rem auto;
+}
+
+
+.picture{
+    width: 8.53rem;
+    height: 5.87rem;
+    background-color: #00142f;
+    margin:  0.4rem auto;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 5rem;
+    font-size: 0.5rem;
+}
+
+
+

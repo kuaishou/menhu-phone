@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"/>
+    <title>吉首门户官网-投诉建议</title>
+    <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/base.css"/>
+    <link rel="stylesheet" href="../css/survey.css"/>
+    <link rel="stylesheet" href="../css/complaint.css"/>
+
+</head>
+<body>
+<header>
+    <h1>投诉建议</h1>
+</header>
+<!--手机触摸滑动轮播图-->
+<div class="survey">
+    <div class="survey-box complaint">
+        <h4>投诉建议</h4>
+        <textarea class="complaint-word" name="" id="">矮寨特大悬索桥位于湖南省湘西州吉首市矮寨镇境内矮寨特大悬索桥位于湖南省湘西州吉首市矮寨镇境内，距吉首市区约20公里，是国家重点规划的8条高速公路之一——长沙至重庆通道湖南段吉（首）茶（峒）高速公路中的重点工程。工程为双层公路、观光通道两用桥梁，四车道高速公路特大桥。桥型方案为钢桁加劲梁单跨悬索桥，全长1073.65m，悬索桥的主跨为1176m，创造了四项世界第一，极大地改善湘渝两省市的交通现状，对两省市乃至中西部的对接具有极其重要的意义。矮寨特大悬索桥位于湖南省湘西州吉首市矮寨镇境内
+
+        </textarea>
+
+    </div>
+
+
+
+</div>
+
+<div class="complaint-input clearfix">
+    <form action="">
+
+    <div class="formbox name clearfix">
+        <label class="input-tips" for="p">被诉方</label>
+        <input type="text" placeholder="请输入您要投诉的单位和人" class="inputstyle" />
+    </div>
+
+    <div class="formbox email clearfix" id="email">
+        <label class="input-tips" for="u">姓名</label>
+        <input type="text" id="u" name="username" placeholder="请输入姓名" class="inputstyle">
+    </div>
+    <div class="formbox sex clearfix" id="sex">
+        <label class="input" for="0">性别</label>
+        <select class="inputstyle">
+            <option value ="volvo">男</option>
+            <option value ="saab">女</option>
+        </select>
+
+    </div>
+    <div class="formbox phone clearfix" id="phone">
+        <label class="input-tips" for="p">手机号</label>
+        <input type="tel" id="p" name="p" placeholder="请输入手机号" class="inputstyle">
+    </div>
+
+
+    <div class="formbox yanzheng clearfix">
+        <label for="firstin4">验证码</label>
+        <input type="text" class="paswordin inputstyle" id="firstin4" placeholder="验证码">
+        <input type="button" class="passagain" id="btn" value="发送验证码" />
+    </div>
+    <!--发送验证码后-->
+
+
+
+    <div class="check clearfix">
+        <input class="checkbox" type="checkbox" id="checkbox"/>
+        <label class="input-check" for="checkbox">我同意</label>
+        <a class="cd-bouncy-nav-trigger" href="#0">投诉协议</a>
+
+            <div class="cd-bouncy-nav-modal">
+                    <div class ='content' >
+                        <div class="modeltitle">
+                            <h4>投诉协议</h4>
+                            <a href="#0" class="cd-close close">X</a>
+                        </div>
+                        <div class="modelbody">
+                            <p>一、纪检监察机关举报网站受理范围：</p>
+                            <p>1.受理对党组织、党员和监察对象违反党纪政纪行为的检举控告；</p>
+                            <p>2.依法应由纪检监察机关受理的党组织、党员和监察对象不服党纪政纪处分和其他处理的申诉；</p>
+                            <p>3.对党风廉政建设和反腐败工作的意见建议。</p>
+                            <p>二、举报人对举报事实的真实性负责。对于借举报捏造事实、诬告陷害的，依照有关规定严肃处理；涉嫌犯罪的，移送司法机关依法处理。</p>
+                            <p>三、根据“分级负责、归口办理”原则，请您按照被举报人属地和级别，选择相应的举报网站进行举报。</p>
+                            <p>四、纪检监察机关提倡实名举报（请填写真实姓名、身份证号、家庭住址或工作单位以及准确联系方式等内容）。</p>
+                            <p>五、反映党风政风行风问题，请点击此处。</p>
+                        </div>
+                        <div class="modelfooter">
+                            <a href="#0" class="cd-close read">我已阅读</a>
+                        </div>
+
+                    </div>
+
+
+                <a href="#0" class="cd-close">Close modal</a>
+            </div>
+    </div>
+
+         <div>
+             <input type="submit" value="提&nbsp&nbsp&nbsp交"  class="button_blue" disabled="disabled">
+         </div>
+    </form>
+  </div>
+
+
+
+
+
+
+
+<!--头部区域-->
+<script src="../lib/jquery/jquery.js"></script>
+<script src="../lib/bootstrap/js/bootstrap.js"></script>
+<script src="../js/index.js"></script>
+
+
+<script>
+    jQuery(document).ready(function($) {
+    var countdown=60;
+    $("#btn").click(function(){
+        var obj = $("#btn");
+        settime(obj);
+    })
+
+    function settime(obj) { //发送验证码倒计时
+
+        if (countdown == 0) {
+            obj.attr('disabled',false);
+            //obj.removeattr("disabled");
+            obj.val("发送验证码");
+            countdown = 60;
+            return;
+        } else {
+            obj.attr('disabled',true);
+            obj.val("(" + countdown + ")秒后重新发送");
+            countdown--;
+        }
+        setTimeout(function() {
+                    settime(obj) }
+                ,1000)
+    }
+
+
+        var is_bouncy_nav_animating = false;
+        //弹出菜单
+        $('.cd-bouncy-nav-trigger').on('click', function() {
+            triggerBouncyNav(true);
+        });
+        //关闭菜单
+        $('.cd-bouncy-nav-modal .cd-close').on('click', function() {
+            triggerBouncyNav(false);
+        });
+        $('.cd-bouncy-nav-modal').on('click', function(event) {
+            if ($(event.target).is('.cd-bouncy-nav-modal')) {
+                triggerBouncyNav(false);
+            }
+        });
+        function triggerBouncyNav($bool) {
+            //点击若没有动画
+            if (!is_bouncy_nav_animating) {
+                is_bouncy_nav_animating = false;
+                //切换菜单动画
+                $('.cd-bouncy-nav-modal').toggleClass('fade-in', $bool).toggleClass('fade-out', !$bool).find('#buy div:last-child').one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function() {
+                    $('.cd-bouncy-nav-modal').toggleClass('is-visible', $bool);
+                    if (!$bool)
+                        $('.cd-bouncy-nav-modal').removeClass('fade-out');
+                    is_bouncy_nav_animating = false;
+                });
+                //判断css 动画是否开启..
+                if ($('.cd-bouncy-nav-trigger').parents('.no-csstransitions').length > 0) {
+                    $('.cd-bouncy-nav-modal').toggleClass('is-visible', $bool);
+                    is_bouncy_nav_animating = false;
+                }
+            }
+        }
+    });
+
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+
+/*路线推荐页面*/
+
+.route{
+    padding: 0 0.27rem;
+}
+.route .route-box{
+    margin-top: 0.4rem;
+    width: 9.47rem;
+    height: 3.33rem;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+}
+.route .route-box .route-boxl img{
+    width: 5.04rem;
+    height: 3.33rem;
+
+
+}
+.route .route-box .route-boxr{
+    width: 4.43rem;
+    height: 3.33rem;
+
+}
+.route .route-box .route-boxr h4{
+    height: 1rem;
+    line-height: 1rem;
+    font-size: 0.4rem;
+    color: #333333;
+    text-align: center;
+
+}
+.route .route-box .route-boxr p{
+    height: 1rem;
+    font-size: 0.35rem;
+    color: #5a5a5a;
+    padding: 0 0.4rem;
+    line-height: 0.5rem;
+    overflow: hidden;
+    text-align: justify;
+}
+.route .route-box .route-boxr a{
+    display: block;
+    height: 0.6rem;
+    width: 1.6rem;
+    line-height: 0.6rem;
+    float: right;
+    font-size: 0.29rem;
+    color: #5a5a5a;
+    margin-right: 0.6rem;
+    text-align: center;
+}
+
+/*游记列表页*/
+.travels  .travels-box{
+    /*padding-left: 0.3rem;*/
+}
+.travels  .travels-box .travels-boxt-title{
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.37rem;
+    color: #333333;
+    margin-left: 0.3rem;
+}
+.travels  .travels-box .travels-boxt-body{
+    height: 1.46rem;
+}
+.travels  .travels-box .travels-boxt-body p{
+    width: 6.53rem;
+    height: 0.96rem;
+    font-size: 0.34rem;
+    line-height: 0.48rem;;
+    color: #5a5a5a;
+    overflow: hidden;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.2rem;
+    margin-left: 0.3rem;
+}
+
+.travels  .travels-box .travels-boxt-body .journalism{
+    width: 6.53rem;
+    height: 0.96rem;
+    font-size: 0.34rem;
+    line-height: 0.48rem;;
+    color: #5a5a5a;
+    overflow: hidden;
+    text-align: justify;
+    padding: 0;
+    margin: 0;
+    margin-top: 0.2rem;
+    margin-right: 0.4rem;
+}
+
+
+.travels  .travels-box .travels-boxt-body img{
+    width: 2.13rem;
+    height: 1.33rem;
+}
+
+.travels  .travels-box .travels-boxt-footer{
+    height: 1.06rem;
+    line-height: 1.06rem;
+}
+.travels  .travels-box .travels-boxt-footer .footer-user{
+    width: 3.33rem;
+    font-size: 0.29rem;
+    margin-left: 0.3rem;
+}
+.travels  .travels-box .travels-boxt-footer .footer-user img{
+    width: 0.48rem;
+    height: 0.48rem;
+}
+.travels  .travels-box .travels-boxt-footer .footer-comment{
+    width: 2.67rem;
+}
+.travels  .travels-box .travels-boxt-footer .radius{
+    display: inline-block;
+    width: 0.19rem;
+    height: 0.19rem;
+    border-radius: 0.19rem;
+    background-color: #e3e3e3;
+}
+.travels  .travels-box .travels-boxt-footer .footer-word{
+    font-size: 0.27rem;
+    color: #b5b5b5;
+}
+
+

@@ -35,9 +35,9 @@
     <div class="cont clearfix">
 
         <div class="cont-left">
-            <div class="cont-leftbox leftbox1"><a href="#">  <img src="images/jishou.png" alt=""/><p>走进吉首</p></a></div>
-            <div class="cont-leftbox leftbox2"><a href="#">  <img src="images/fun.png" alt=""/><p>畅玩吉首</p>   </a></div>
-            <div class="cont-leftbox leftbox3"><a href="#">  <img src="images/tra.png" alt=""/><p>吉首攻略</p>   </a></div>
+            <div class="cont-leftbox leftbox1"><a href="templates/enter.html">  <img src="images/jishou.png" alt=""/><p>走进吉首</p></a></div>
+            <div class="cont-leftbox leftbox2"><a href="templates/enter-changwan.html">  <img src="images/fun.png" alt=""/><p>畅玩吉首</p>   </a></div>
+            <div class="cont-leftbox leftbox3"><a href="templates/enter-gonglue.html">  <img src="images/tra.png" alt=""/><p>吉首攻略</p>   </a></div>
         </div>
         <div class="cont-right">
             <div class="cont-rightbox1">
@@ -54,79 +54,11 @@
     </div>
 
 
-
-
-
-
-
-
-
-
-
     <!--头部区域-->
 <script src="lib/jquery/jquery.js"></script>
 <script src="lib/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript" src="lib/jquery/jquery.event.drag.js"></script>
 <script type="text/javascript" src="lib/jquery/jquery.touchSlider.js"></script>
 <script src="js/index.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-
-            $(".img_gallery").hover(function(){
-                $("#btn_prev,#btn_next").fadeIn()
-            },function(){
-                $("#btn_prev,#btn_next").fadeOut()
-            });
-
-            $dragBln = false;
-
-            $(".main_img").touchSlider({
-                flexible : true,
-                speed : 200,
-                btn_prev : $("#btn_prev"),
-                btn_next : $("#btn_next"),
-                paging : $(".point a"),
-                counter : function (e){
-                    $(".point a").removeClass("on").eq(e.current-1).addClass("on");//图片顺序点切换
-                    $(".img_font span").hide().eq(e.current-1).show();//图片文字切换
-                }
-            });
-
-            $(".main_img").bind("mousedown", function() {
-                $dragBln = false;
-            });
-
-            $(".main_img").bind("dragstart", function() {
-                $dragBln = true;
-            });
-
-            $(".main_img a").click(function(){
-                if($dragBln) {
-                    return false;
-                }
-            });
-
-            timer = setInterval(function(){
-                $("#btn_next").click();
-            }, 3000);
-
-            $(".img_gallery").hover(function(){
-                clearInterval(timer);
-            },function(){
-                timer = setInterval(function(){
-                    $("#btn_next").click();
-                },3000);
-            });
-
-            $(".main_img").bind("touchstart",function(){
-                clearInterval(timer);
-            }).bind("touchend", function(){
-                timer = setInterval(function(){
-                    $("#btn_next").click();
-                }, 3000);
-            });
-
-        });
-    </script>
 </body>
 </html>
