@@ -35,11 +35,13 @@
     font-size: 0.35rem;
     color: #5a5a5a;
     padding: 0 0.4rem;
+    padding-bottom: 0.1rem;
     line-height: 0.5rem;
     overflow: hidden;
     text-align: justify;
+
 }
-.route .route-box .route-boxr a{
+.route .route-box .route-boxr .routemore{
     display: block;
     height: 0.6rem;
     width: 1.6rem;

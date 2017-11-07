@@ -73,10 +73,23 @@
 
 
 
-
 <!--头部区域-->
 <script src="../lib/jquery/jquery.js"></script>
 <script src="../lib/bootstrap/js/bootstrap.js"></script>
-<script src="../js/index.js"></script>
+<script src="../js/base.js"></script>
+<script>
+    //判断页面滚动到顶部和底部
+    $(window).scroll(function(){
+        var doc_height = $(document).height();
+        var scroll_top = $(document).scrollTop();
+        var window_height = $(window).height();
+
+        if(scroll_top == 0){
+            alert("到顶啦");
+        }else if(scroll_top + window_height >= doc_height){
+            alert("到底啦啦");
+        }
+    });
+</script>
 </body>
 </html>

@@ -115,11 +115,9 @@ header h1{
 div.point{
     position:absolute;
     bottom: 0.4rem;;
-    left:50%;
+    left:38%;
     z-index:999;
-    width: 1.7rem;
     height: 0.27rem;
-    margin-left: -0.85rem;
 
 }
 div.point a{
@@ -130,13 +128,23 @@ div.point a{
     margin-left: 0.24rem;
     border-radius: 0.26rem;;
     background-color: #FFFFFF;
-    /*background:url('../images/btn_main_img.png') 0 0 no-repeat;*/
     display:block;
     text-indent:-1000px
 }
 div.point a.on{
-    /*background-position:0 -21px;*/
-    background-color: #00142f;
+    background-color: #F57D02;
+}
+
+/*µ×²¿*/
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 10rem;
+    height: 1rem;
+    background-color: #f2f2f2;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.3rem;
 }
 
 

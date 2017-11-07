@@ -65,7 +65,11 @@
     margin: 0.3rem auto;
 }
 
-
+.video{
+    display: block;
+    width: 8.53rem;
+    margin: 0.3rem auto;
+}
 .picture{
     width: 8.53rem;
     height: 5.87rem;
@@ -77,5 +81,10 @@
     font-size: 0.5rem;
 }
 
+/*Â·ÏßÏêÇé*/
+.route-title{
+    font-size: 0.35rem;
+    font-weight: 500;
+    margin-top: 0.4rem;
 
-
+}

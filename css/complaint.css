@@ -25,6 +25,11 @@
     color: #333333;
     font-weight: 500;
 }
+
+.complaint-input .formbox .file-box{
+    padding-top: 0.73rem;
+    padding-left: 0.4rem;
+}
 .complaint-input .formbox .inputstyle{
     width: 5.33rem;
     height: 1.33rem;
